@@ -1,0 +1,63 @@
+.aboutUs-section {
+  background: #f9f8f8;
+  z-index: 1;
+  .container-wrapper {
+    min-width: 1720px;
+    max-width: 1720px;
+    margin: 0 auto;
+    position: relative;
+    .background-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 911px;
+      height: 867px;
+      z-index: 2;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .section-content {
+      padding: 186px 0 199px 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      z-index: 3;
+      .right-content {
+        width: 50%;
+        .sub-title {
+          margin-bottom: 8px;
+          font-family: "Yellowtail";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 49px;
+          /* identical to box height */
+          color: #7eb693;
+        }
+        .heading {
+          margin-bottom: 14px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 50px;
+          line-height: 59px;
+
+          color: #274c5b;
+        }
+        .description {
+          margin-bottom: 46px;
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 165.4%;
+          /* or 30px */
+
+          color: #525c60;
+        }
+      }
+    }
+  }
+}

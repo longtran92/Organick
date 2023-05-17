@@ -1,0 +1,45 @@
+.btn-primary {
+  padding: 28px 0;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #274c5b;
+  border-radius: 16px;
+  border: none;
+  span {
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #ffffff;
+  }
+  .btn-icon {
+    min-width: 19px;
+    max-width: 19px;
+    min-height: 19px;
+    max-height: 19px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.yellow {
+  background: #efd372;
+  span {
+    color: #274c5b;
+  }
+}
+
+.transparent {
+  background: #ffffff;
+  border: 2px solid #274c5b;
+  span {
+    color: #274c5b;
+  }
+}

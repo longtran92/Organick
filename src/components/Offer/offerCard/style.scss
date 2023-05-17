@@ -1,0 +1,55 @@
+.offerCard {
+  width: calc((100% - 36px) / 2);
+  height: 367px;
+  position: relative;
+  .background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .card-content {
+    position: absolute;
+    top: 110px;
+    left: 55px;
+    .sub-title {
+      margin-bottom: 5px;
+      font-family: "Yellowtail";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 49px;
+    }
+    .card-title {
+      max-width: 260px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 47px;
+    }
+  }
+}
+
+.natural {
+  .sub-title {
+    color: #ffffff;
+  }
+  .card-title {
+    color: #ffffff;
+  }
+}
+
+.offer {
+  .sub-title {
+    color: #7eb693;
+  }
+  .card-title {
+    color: #274c5b;
+  }
+}

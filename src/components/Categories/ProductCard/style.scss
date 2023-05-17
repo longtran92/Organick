@@ -1,0 +1,83 @@
+.product-card {
+  width: calc((100% - 60px) / 4);
+  margin-bottom: 20px;
+  padding: 29px 0px 17px 0px;
+  background: #f9f8f8;
+  border-radius: 30px;
+  cursor: pointer;
+  .badge {
+    display: inline-block;
+    margin-bottom: 13px;
+    margin-left: 30px;
+    padding: 6px 12px;
+    background: #274c5b;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .card-img {
+    margin-bottom: 2px;
+    width: 100%;
+    height: 324px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .card-title {
+    margin-bottom: 13px;
+    padding-left: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: start;
+
+    color: #274c5b;
+  }
+  .card-footer {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .price {
+      display: flex;
+      align-items: center;
+      .old-price {
+        display: block;
+        margin-right: 8px;
+        text-decoration: line-through;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #b8b8b8;
+      }
+      .new-price {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #274c5b;
+      }
+    }
+    .ratings {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,113 @@
+// MAIN HEADER
+.main-header {
+  padding: 70px 0;
+  .header-container {
+    min-width: 1596px;
+    max-width: 1596px;
+    margin: 0 auto;
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .main-nav {
+        width: 57%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo-container {
+          display: flex;
+          align-items: center;
+          .logo-icon {
+            margin-right: 8px;
+            width: 37px;
+            height: 54px;
+          }
+          .logo-txt {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 45px;
+            /* identical to box height */
+            color: #274c5b;
+          }
+        }
+        .page-links {
+          width: 62%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .dropdown {
+            display: flex;
+            align-items: center;
+            .link {
+              margin-right: 4px;
+            }
+            svg {
+              cursor: pointer;
+            }
+          }
+          .link {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            color: #274c5b;
+          }
+        }
+      }
+      .utilities {
+        width: 33.4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .search-container {
+          width: 68%;
+          background: #fafafa;
+          border-radius: 36px;
+          padding: 5px 6px;
+          display: flex;
+          align-items: center;
+          .search-bar {
+            border: 0;
+            background: #fafafa;
+            flex-grow: 1;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+
+            color: #274c5b;
+
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+        .cart-container {
+          border: 1px solid #e0e0e0;
+          border-radius: 33px;
+          padding: 5px 23px 5px 6px;
+          display: flex;
+          align-items: center;
+          svg {
+            margin-right: 12px;
+            cursor: pointer;
+          }
+          .cart-txt {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+
+            color: #274c5b;
+          }
+        }
+      }
+    }
+  }
+}

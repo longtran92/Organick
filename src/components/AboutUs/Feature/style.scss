@@ -1,0 +1,42 @@
+.feature {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  &:last-child {
+    margin-bottom: 46px;
+  }
+  .feature-img {
+    margin-right: 19px;
+    min-width: 101px;
+    max-width: 101px;
+    min-height: 101px;
+    max-height: 101px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .feature-content {
+    .feature-heading {
+      margin-bottom: 7px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 25px;
+      line-height: 29px;
+
+      color: #274c5b;
+    }
+    .feature-description {
+      max-width: 200px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 165.4%;
+      /* or 30px */
+
+      color: #525c60;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.banner-section {
+  height: 100vh;
+  background-image: url("../../../public/assets/images/page-home/banner-cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  .content-container {
+    .banner-content {
+      .sub-title {
+        display: block;
+        margin-bottom: 8px;
+        font-family: "Yellowtail";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        /* identical to box height */
+
+        color: #68a47f;
+      }
+      .heading {
+        max-width: 530px;
+        margin-bottom: 22px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 82px;
+        color: #274c5b;
+      }
+      .btn-explore {
+        padding: 28px 39px;
+        display: flex;
+        align-items: center;
+        background: #efd372;
+        border-radius: 16px;
+        border: none;
+        cursor: pointer;
+        span {
+          margin-right: 10px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 23px;
+
+          color: #274c5b;
+        }
+      }
+    }
+  }
+}
