@@ -1,0 +1,40 @@
+.news-section {
+  padding: 177px 0 251px 0;
+  .section-content {
+    .header-container {
+      margin-bottom: 48px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      .heading-container {
+        .subTitle {
+          display: block;
+          margin-bottom: 8px;
+          font-family: "Yellowtail";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 49px;
+          /* identical to box height */
+
+          color: #7eb693;
+        }
+        .heading {
+          max-width: 702px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 50px;
+          line-height: 59px;
+
+          color: #274c5b;
+        }
+      }
+    }
+    .newsCards-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

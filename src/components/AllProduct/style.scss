@@ -1,0 +1,42 @@
+.allProduct-section {
+  background: #274c5b;
+  .section-content {
+    padding: 200px 0;
+    .header-container {
+      margin-bottom: 50px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      .heading-container {
+        .subTitle {
+          display: block;
+          margin-bottom: 8px;
+          font-family: "Yellowtail";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 49px;
+          /* identical to box height */
+
+          color: #7eb693;
+        }
+        .heading {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 50px;
+          line-height: 59px;
+          /* identical to box height */
+
+          color: #ffffff;
+        }
+      }
+    }
+    .productCards-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}

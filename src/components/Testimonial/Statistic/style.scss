@@ -1,0 +1,39 @@
+.statistic-wrapper {
+  width: calc((100% - 186px) / 4);
+  background: #7eb693;
+  border-radius: 100%;
+  border: none;
+  padding: 4px;
+  .statistic-content {
+    background: #f1f1f1;
+    border-radius: 100%;
+    border: 7px solid #fff;
+    padding: 53px 20px;
+    .stat-number {
+      display: block;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 59px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #274c5b;
+    }
+    .stat-title {
+      display: block;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 165.4%;
+      /* identical to box height, or 30px */
+
+      text-align: center;
+
+      color: #274c5b;
+    }
+  }
+}

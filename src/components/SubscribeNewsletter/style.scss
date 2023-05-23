@@ -1,0 +1,45 @@
+.subscribe-section {
+  margin-bottom: 120px;
+  .subscribe-content {
+    padding: 105px 71px;
+    border-radius: 16px;
+    background: url("../../../public/assets/images/page-home/newsletter-subscribe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .heading {
+      max-width: 357px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 59px;
+      color: #ffffff;
+    }
+    .subscribe-form {
+      min-width: 575px;
+      display: flex;
+      align-items: center;
+      input {
+        flex-grow: 1;
+        margin-right: 6px;
+        padding: 28px 0 31px 23px;
+        background: #ffffff;
+        border-radius: 16px;
+        border: none;
+        outline: none;
+        font-family: "Roboto";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #ababab;
+      }
+    }
+  }
+}

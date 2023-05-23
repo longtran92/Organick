@@ -1,11 +1,10 @@
 import React from "react";
 import "./style.scss";
 import { v4 as uuidv4 } from "uuid";
-import Testimony from "./Testimony";
 
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Testimony from "./Testimony";
+import Statistic from "./Statistic";
 
 const Testimonial = () => {
   const settings = {
@@ -26,26 +25,32 @@ const Testimonial = () => {
       consumerName: "Sara Taylor",
       consumerTitle: "Consumer",
     },
-    {
-      id: uuidv4(),
-      profileImg: "./assets/images/page-home/customer-profile.png",
-      stars: 5,
-      testimonyDescription:
-        "Simply dummy text ofhe printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      consumerName: "Sara Taylor",
-      consumerTitle: "Consumer",
-    },
-    {
-      id: uuidv4(),
-      profileImg: "./assets/images/page-home/customer-profile.png",
-      stars: 5,
-      testimonyDescription:
-        "Simply dummy text ofhe printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      consumerName: "Sara Taylor",
-      consumerTitle: "Consumer",
-    },
+    // {
+    //   id: uuidv4(),
+    //   profileImg: "./assets/images/page-home/customer-profile.png",
+    //   stars: 5,
+    //   testimonyDescription:
+    //     "Simply dummy text ofhe printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    //   consumerName: "Sara Taylor",
+    //   consumerTitle: "Consumer",
+    // },
+    // {
+    //   id: uuidv4(),
+    //   profileImg: "./assets/images/page-home/customer-profile.png",
+    //   stars: 5,
+    //   testimonyDescription:
+    //     "Simply dummy text ofhe printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    //   consumerName: "Sara Taylor",
+    //   consumerTitle: "Consumer",
+    // },
   ];
 
+  const statData = [
+    { id: uuidv4(), statNumber: "100%", statTitle: "Organic" },
+    { id: uuidv4(), statNumber: "285", statTitle: "Active Product" },
+    { id: uuidv4(), statNumber: "350+", statTitle: "Organic Orchads" },
+    { id: uuidv4(), statNumber: "25+", statTitle: "Years of Farming" },
+  ];
   return (
     <section className="testimonial-section">
       <div className="container-wrapper">
@@ -64,6 +69,12 @@ const Testimonial = () => {
                 <Testimony key={testimony.id} data={testimony} />
               ))}
             </Slider>
+            <div className="divider"></div>
+            <div className="statistics-container">
+              {statData.map((stat) => (
+                <Statistic key={stat.id} statData={stat} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

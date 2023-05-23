@@ -2,14 +2,11 @@
   background: #f9f8f8;
   z-index: 1;
   .container-wrapper {
-    min-width: 1720px;
-    max-width: 1720px;
-    margin: 0 auto;
     position: relative;
     .background-img {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 87px;
+      left: 100px;
       width: 911px;
       height: 867px;
       z-index: 2;
@@ -19,12 +16,12 @@
       }
     }
     .section-content {
-      padding: 186px 0 199px 0;
       display: flex;
       align-items: center;
       justify-content: flex-end;
       z-index: 3;
       .right-content {
+        padding: 186px 0 199px 0;
         width: 50%;
         .sub-title {
           margin-bottom: 8px;

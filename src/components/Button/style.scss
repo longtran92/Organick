@@ -37,9 +37,18 @@
 }
 
 .transparent {
-  background: #ffffff;
+  background: transparent;
   border: 2px solid #274c5b;
   span {
     color: #274c5b;
+  }
+}
+
+.noIcon {
+  span {
+    margin-right: 0;
+  }
+  .btn-icon {
+    display: none;
   }
 }
