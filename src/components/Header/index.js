@@ -1,13 +1,15 @@
 import React from "react";
 import "./style.scss";
 
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <header className="main-header">
       <div className="header-container">
         <div className="header-content">
           <div className="main-nav">
-            <a href="#">
+            <Link to="/">
               <div className="logo-container">
                 <img
                   src="./assets/images/page-home/Logo.png"
@@ -16,22 +18,20 @@ const Header = () => {
                 />
                 <h1 className="logo-txt">Organick</h1>
               </div>
-            </a>
+            </Link>
             <ul className="page-links">
               <li className="item">
-                <a href="#" className="link">
+                <Link className="link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="item">
-                <a href="#" className="link">
+                <Link className="link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="item dropdown">
-                <a href="#" className="link">
-                  Pages
-                </a>
+                <Link className="link">Pages</Link>
                 <svg
                   width="8"
                   height="6"
@@ -49,19 +49,13 @@ const Header = () => {
                 </svg>
               </li>
               <li className="item">
-                <a href="#" className="link">
-                  Shop
-                </a>
+                <Link className="link">Shop</Link>
               </li>
               <li className="item">
-                <a href="#" className="link">
-                  Projects
-                </a>
+                <Link className="link">Projects</Link>
               </li>
               <li className="item">
-                <a href="#" className="link">
-                  News
-                </a>
+                <Link className="link">News</Link>
               </li>
             </ul>
           </div>
